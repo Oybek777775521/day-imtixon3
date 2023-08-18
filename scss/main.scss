@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffd845;
+}
+.header {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  &__logo {
+    display: block;
+    width: 610px;
+    margin: 0 auto;
+  }
+  &__form {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+  &__input {
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  &__select {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 180px;
+  }
+  &__button {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 180px;
+  }
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 330px;
+  height: 430px;
+  padding: 30px;
+  margin-top: 15px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
